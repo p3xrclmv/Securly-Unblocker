@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Chromebook: OFFLINE</title>
+        <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAtJREFUGFdjYAACAAAFAAGq1chRAAAAAElFTkSuQmCC" rel="icon">
+    </head>
+    <body>
+        <iframe id="i"></iframe>
+        <script>
+            function s(v) {
+                const i = document.getElementById('i');
+                const a = i.style;
+                a.border = a.outline = 'none';
+                a.width = '100%';
+                a.height = '100%';
+                a.position = 'fixed';
+                a.left = a.right = a.top = a.bottom = '0';
+                i.src = `http://${v}`;
+            }
+            let k = prompt('Enter a URL:');
+            s(k);
+        </script>
+      <a href="https://github.com/p3xrclmv/Securly-Unblocker"><h4>@p3xrclmv/Securly-Unblocker</h4></a>
+    </body>
+</html>
